@@ -11,10 +11,10 @@ import tweepy
 
 class Import_tweet_sentiment:
 
-    consumer_key="SvrmVjZ527gKMocaCIdS8ArZo"
-    consumer_secret="mFjrSeMr6TU7qOxQHTrtyPGt2BeA4RnBK4XzIHo1SH4jGebyl2"
-    access_token="2555973745-LbNFTyylxT1oZNhEPXEuwKIrmeCDMlSQtKESpeF"
-    access_token_secret="qt9wPbZdIkZ1bFS0XxcOxTFwpI2DMCw1RCGcBj65ce7bm"
+    consumer_key="Enter Your Consumer Key"
+    consumer_secret="Enter Your Consumer Key Secret "
+    access_token="Enter Your  Access Token"
+    access_token_secret="Enter Your Access Token Secret"
 
     def tweet_to_data_frame(self, tweets):
         df = pd.DataFrame(data=[tweet.text for tweet in tweets], columns=['Tweets'])
